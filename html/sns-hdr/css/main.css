@@ -1,0 +1,525 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+#scroll
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+.rectangle
+{
+    width: 100%;
+}
+#logo
+{
+    float: left;
+    font-family: SansSerif;
+    font-size: 60px;
+    width: 300px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+#sns
+{
+    color: #d90101;
+    font-weight: 700;
+}
+#hdr
+{
+    color: #dedcdc;
+    font-weight: 700;
+}
+#free
+{
+    float: left;
+    width: 776px;
+
+}
+#freeVersion
+{
+    display: table;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#language
+{
+    float: left;
+    font-family:  sans-serif;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 100px;
+    padding-right: 10px;
+    color: #dedcdc;
+}
+.Clanguage
+{
+    width: 45px;
+    height: 25px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+nav
+{
+    text-align: justify;
+    color: #000000;
+}
+.topMain
+{
+    width: 100%;
+    background-color: #262525;
+
+}
+.navigation
+{
+    width: 1000px;
+    float: left;
+
+}
+#menu
+{
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    min-height: 40px;
+    line-height: 200%;
+}
+
+.button
+{
+    font-family: sans-serif;
+    color: #dedcdc;
+    padding: 18px 20px;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    border-top:1px solid #151515;
+    border-bottom:1px solid #151515;
+    background-color: #363636;
+    border-right:1px solid #151515;
+
+}
+.button:hover
+{
+    background: linear-gradient(-45deg, #d42a2a, #000000);
+    background-size: 400% 300%;
+    animation: gradient 2.5s ease forwards;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+.demo
+{
+    font-family: sans-serif;
+    color: #dedcdc;
+    padding: 12px 10px;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    border-top:1px solid #151515;
+    border-left:1px solid #151515;
+    border-bottom:1px solid #151515;
+    border-right:1px solid #151515;
+    background-color: #363636;
+}
+.lite
+{
+    font-family: sans-serif;
+    color: #dedcdc;
+    padding: 12px 10px;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    border-top:1px solid #151515;
+    border-right:1px solid #151515;
+    background-color: #363636;
+}
+.demo:hover
+{
+    background: linear-gradient(-45deg, #2a4fd4, #000000);
+    background-size: 400% 300%;
+    animation: demoa 2.5s ease forwards;
+}
+@keyframes demoa {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+.lite:hover
+{
+    background: linear-gradient(-45deg, #14aa22, #000000);
+    background-size: 400% 300%;
+    animation: litea 2.5s ease forwards;
+}
+@keyframes litea {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+#headTitle
+{
+    background-color: #262525;
+}
+#head
+{
+    width: 1001px;
+    float: left;
+    padding-top: 25px;
+    background-color: #262525;
+    font-weight: 700;
+}
+#title
+{
+    padding-left: 50px;
+    font-size: 30px;
+    padding-bottom: 0;
+    color: #dedcdc;
+}
+#forum
+{
+    font-family: sans-serif;
+    color: #dedcdc;
+    padding: 18px 10px 18px 11px;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    width: 78px;
+    text-align: center;
+    border-bottom:1px solid #151515;
+    border-left:1px solid #151515;
+    background-color: #363636;
+}
+#facebook
+{
+    font-family: sans-serif;
+    color: #dedcdc;
+    padding: 14px 11px 14px 10px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    width: 78px;
+    text-align: center;
+    border-bottom:1px solid #151515;
+    border-right:0px solid #151515;
+    border-left: 1px solid #151515;
+    background-color: #363636;
+}
+
+#forum:hover
+{
+    background: linear-gradient(-45deg, #af5610, #000000);
+    background-size: 400% 300%;
+    animation: foruma 2.5s ease forwards;
+}
+@keyframes foruma {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+#facebook:hover
+{
+    background: linear-gradient(-45deg, #3b5998, #000000);
+    background-size: 400% 300%;
+    animation: facea 2.5s ease forwards;
+}
+@keyframes facea {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+main
+{
+    background-color: #262525;
+    color: #afafaf;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+#main_text
+{
+    width: 1201px;
+    padding-top: 5px;
+    text-align: justify;
+}
+.paragraph
+{
+    margin-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.photo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#list
+{
+    float: left;
+    width: 1101px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.lists
+{
+    float: left;
+    width: 354px;
+    padding: 0px 6px;
+}
+ul > li
+{
+    padding-top: 7px;
+    font-size: 15px;
+}
+.header
+{
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #dedcdc;
+}
+#footer
+{
+    float: left;
+    width: 1201px;
+    border-top: 1px solid black;
+    background-color: #1b1b1b;
+    font-family: Tahoma;
+    color: #afafaf;
+}
+#copy
+{
+    padding: 15px 15px;
+    float: left;
+    font-size: 14px;
+}
+#contact
+{
+    padding: 15px 15px;
+    text-align: right;
+    font-size: 14px;
+}
+.gallery
+{
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+#flickr
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#blue
+{
+    color: #2a4fd4;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    font-size: 22px;
+}
+#red
+{
+    color: #d90101;
+    font-weight: 700;
+    font-size: 22px;
+}
+a
+{
+    text-decoration: none;
+}
+#mainVersion
+{
+    width: 1201px;
+}
+#version
+{
+    padding: 150px 50px 364px 50px;
+    display: table;
+    margin: 0 auto;
+}
+table
+{
+    border-collapse: collapse;
+}
+th
+{
+    color: #dedcdc;
+}
+th,td
+{
+    width: 150px;
+    margin: 0;
+    padding: 5px 0px;
+    text-align: center;
+    border: 0.1px solid #9b9b9b;
+    background-color: #323232;
+}
+.feature
+{
+    width: 400px
+}
+th
+{
+    background-color: #444444;
+}
+#changes
+{
+    padding: 30px 50px 50px 50px;
+}
+.version
+{
+    padding-bottom: 2px;
+}
+#changes ul > li
+{
+    font-size: 15px;
+}
+.version
+{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.date
+{
+    font-size: 13px;
+}
+#versions
+{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.Vbut
+{
+    float: left;
+    margin-right: 30px;
+    font-size: 25px;
+    width: 100px;
+    border:1px solid #4b4b4b;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    opacity: 0.9;
+    text-decoration: none;
+    cursor: pointer;
+    color: #dedcdc;
+}
+.Vbut:hover
+{
+    opacity: 1;
+    border:1px solid #686868;
+    color: #efefef;
+}
+#promotion
+{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #dedcdc;
+}
+#discount
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: table;
+    margin: 0 auto;
+}
+#buy
+{
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.licence
+{
+    padding: 30px 0px;
+}
+.justify
+{
+    text-align: justify;
+    padding-left: 15px;
+}
+.secondlists
+{
+    float: left;
+    width: 538px;
+    padding: 0px 6px;
+    font-size: 15px;
+}
+.buy
+{
+    color: #5f5f5f;
+    text-decoration: underline;
+}
+.buy:hover
+{
+    color: #afafaf;
+}
+.sticky
+{
+    width: 1200px;
+    position: fixed;
+    margin-left: auto;
+    top: 0;
+    margin-top: 0px;
+    z-index: 100;
+}
